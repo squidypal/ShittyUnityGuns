@@ -137,12 +137,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.5666667
         value: {x: -92.164, y: -144.741, z: 322.911}
-        inSlope: {x: 23.45032, y: 0, z: 0}
-        outSlope: {x: 23.45032, y: 0, z: 0}
+        inSlope: {x: 119.64759, y: 0, z: 0}
+        outSlope: {x: 119.64759, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        inWeight: {x: 0.23401535, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.16366772, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.9
         value: {x: -89.135, y: 0, z: 180}
@@ -3555,12 +3555,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.5666667
         value: -92.164
-        inSlope: 23.45032
-        outSlope: 23.45032
-        tangentMode: 136
+        inSlope: 119.64759
+        outSlope: 119.64759
+        tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0.23401535
+        outWeight: 0.16366772
       - serializedVersion: 3
         time: 1.9
         value: -89.135
@@ -11801,7 +11801,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: 
+    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -11813,7 +11813,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: 
+    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -11825,7 +11825,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: 
+    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -12125,7 +12125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -12137,7 +12137,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -12149,7 +12149,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: arms/root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
