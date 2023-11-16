@@ -47,8 +47,8 @@ public class DeagleAnimationEvents : MonoBehaviour
              newShell.transform.localScale = new Vector3(2.5f, 2.5f, 2.5f);
              newShell.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
              newShell.GetComponent<BoxCollider>().enabled = true;
-             newShell.GetComponent<Rigidbody>().AddForce(transform.right * 50);
-             newShell.GetComponent<Rigidbody>().AddForce(transform.up * 50);
+             newShell.GetComponent<Rigidbody>().AddForce(transform.right * 100);
+             newShell.GetComponent<Rigidbody>().AddForce(transform.up * 100);
              newShell.layer = 0;
           }
        
