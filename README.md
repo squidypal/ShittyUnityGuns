@@ -6,4 +6,4 @@ Most of the actual code for the project is finished, I am just working on adding
 
 The project currently has ADS, crouching, sprinting, recoil, screenshake and all other things you'd want in a gun game, with leaning coming soon. 
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/4WTzmIZ3D8E)]([https://youtu.be/4WTzmIZ3D8E])
+[![Video Showing the guns](https://youtu.be/4WTzmIZ3D8E)]([https://youtu.be/4WTzmIZ3D8E])
