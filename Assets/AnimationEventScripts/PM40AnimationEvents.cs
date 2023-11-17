@@ -49,7 +49,7 @@ public class PM40AnimationEvents : MonoBehaviour
         // Add force to the left
         newShell.GetComponent<Rigidbody>().AddForce(transform.right * -100);
         newShell.GetComponent<Rigidbody>().AddForce(transform.up * 200);
-        /*newShell.GetComponent<Rigidbody>().AddForce(transform.forward * 100);*/
+        newShell.GetComponent<Rigidbody>().AddTorque(transform.right / 5);
         newShell.GetComponent<BoxCollider>().enabled = true;
         newShell.layer = 0;
     }

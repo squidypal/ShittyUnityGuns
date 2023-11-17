@@ -49,6 +49,7 @@ public class R870AnimationEvents : MonoBehaviour
              newShell.GetComponent<BoxCollider>().enabled = true;
              newShell.GetComponent<Rigidbody>().AddForce(transform.right * 60);
              newShell.GetComponent<Rigidbody>().AddForce(transform.up * 80);
+             newShell.GetComponent<Rigidbody>().AddTorque(transform.right / 5);
              newShell.layer = 0;
           }
 }

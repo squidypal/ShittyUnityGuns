@@ -52,6 +52,7 @@ public class AK47AnimationEvents : MonoBehaviour
       newShell.GetComponent<BoxCollider>().enabled = true;
       newShell.GetComponent<Rigidbody>().AddForce(transform.right * 100);
       newShell.GetComponent<Rigidbody>().AddForce(transform.up * 130);
+      newShell.GetComponent<Rigidbody>().AddTorque(transform.right / 5);
       newShell.layer = 0;
    }
 
