@@ -44,11 +44,14 @@ public class DeagleAnimationEvents : MonoBehaviour
           void EmptyShell()
           {
              GameObject newShell = Instantiate(shell, shell.transform.position, shell.transform.rotation);
+             Rigidbody shellRigidbody = newShell.GetComponent<Rigidbody>();
              newShell.transform.localScale = new Vector3(2.5f, 2.5f, 2.5f);
              newShell.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
              newShell.GetComponent<BoxCollider>().enabled = true;
-             newShell.GetComponent<Rigidbody>().AddForce(transform.right * 100);
-             newShell.GetComponent<Rigidbody>().AddForce(transform.up * 100);
+             newShell.GetComponent<Rigidbody>().AddForce(transform.right * 150);
+             newShell.GetComponent<Rigidbody>().AddForce(transform.up * 150);
+             shellRigidbody.AddTorque(transform.right / 5);
+             
              newShell.layer = 0;
           }
        
