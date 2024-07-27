@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class FollowParent : MonoBehaviour {
 
-    // Script that adds that little sway when looking around with gun
-    
     [Header("Sway Settings")]
     [SerializeField] private float smooth;
     [SerializeField] private float multiplier;
@@ -15,9 +13,9 @@ public class FollowParent : MonoBehaviour {
         float mouseX = Input.GetAxisRaw("Mouse X") * multiplier;
         float mouseY = Input.GetAxisRaw("Mouse Y") * multiplier;
 
-        // calculate target rotation
-        Quaternion rotationX = Quaternion.AngleAxis(-mouseY, Vector3.right);
-        Quaternion rotationY = Quaternion.AngleAxis(mouseX, Vector3.up);
+        // calculate target rotation (reversed)
+        Quaternion rotationX = Quaternion.AngleAxis(mouseY, Vector3.right); // Inverted the direction here
+        Quaternion rotationY = Quaternion.AngleAxis(-mouseX, Vector3.up); // Inverted the direction here
 
         Quaternion targetRotation = rotationX * rotationY;
 

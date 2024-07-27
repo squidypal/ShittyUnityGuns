@@ -62,5 +62,6 @@ public class DeagleAnimationEvents : MonoBehaviour
              emptyMag.GetComponent<BoxCollider>().enabled = true;
              emptyMag.transform.localScale = new Vector3(2f, 2f, 2f);
              emptyMag.layer = 0;
+             emptyMag.GetComponent<Rigidbody>().AddTorque(transform.right * 50);
           }
     }
